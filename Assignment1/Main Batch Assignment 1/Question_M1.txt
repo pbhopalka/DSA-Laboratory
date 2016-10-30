@@ -1,0 +1,215 @@
+1) Write a program to reverse a positive integer in decimal form using a recursive function.
+
+Input: number in the range of 0 – 2
+31
+Output: reverse of the number
+
+Example
+
+Input:
+
+Enter the value of number
+155
+Output:
+551
+
+Input:
+
+Enter the value of number
+1234567895
+
+Output:
+5987654321
+
+
+2) Given two strings, say s1 and s2, consisting of letters from the English alphabet only [a-zA-Z].
+Write a program to check whether s2 is a substring of s1. If yes, print the starting indices
+of s2 in s1.
+Note: String index should start from 0 and the strings are case-sensitive.
+
+Input: Two strings s1 and s2
+Output: Starting index of substring in s1
+
+Example
+
+Input:
+Enter string s1
+abababab
+Enter string s2
+aba
+Output:
+Yes
+0
+2
+4
+
+Input:
+Enter string s1
+abababab
+Enter string s2
+abb
+Output:
+No
+
+
+3) Write a program to create a union with the following members.
+Name, Age, Id-number
+Id-number is of type union with the following fields:
+Aadhaar-Number: long long int
+Voters-ID: String of 7 characters consisting of uppercase letters and decimal digits [0-
+9A-Z]
+The program should read the Name and Age of a person. If the age is less than 18, the
+program should ask for the Aadhaar-Number and store it in the union. Otherwise the
+program should ask for the Voters-ID and store it in the union. After reading the input,
+your program should print the Name, Age, Id-Number of the person.
+
+Input : Name, Age, Aadhaar-Number/Voters-ID
+Output : Name, Age, Id-Number
+
+Example
+
+Input:
+Enter name:
+Krithika
+Enter age:
+25
+Enter Voter- ID:
+ABR1286
+
+Output:
+Krithika, 25, ABR1286
+
+Input:
+Enter name:
+Aysha
+Enter age:
+14
+
+Enter Aadhaar-Number:
+876054189623
+
+Output:
+Aysha, 14, 876054189623
+
+4) Write a program to calculate area and perimeter of a rectangle using two functions. The
+program should ask for a choice and based on the choice, corresponding function should
+be called using a function pointer.
+Input: Length, Breadth and choice.
+Output: Area or Perimeter based on the choice.
+
+Example
+
+Input:
+Enter Length:
+12
+Enter Breadth:
+8
+Menu:
+1. Area
+2. Perimeter
+3. Exit
+Enter the choice:
+1
+Area:
+96
+Menu:
+1. Area
+2. Perimeter
+3. Exit
+Enter the choice:
+2
+Perimeter:
+40
+Menu:
+1. Area
+2. Perimeter
+3. Exit
+Enter the choice:
+3
+
+
+5) Write a program to check whether a given matrix is a magic square or not.
+Input: A square matrix of size 'n'
+Output: “Yes” or “No”
+
+Example
+Input:
+Enter the value of n
+3
+Enter the elements
+4
+9
+2
+3
+5
+7
+8
+1
+6
+Output:
+Yes
+
+6) Write a C program to create a file by reading the name of a file from the command line.
+The purpose of the file is to store student records, with the following fields:
+Name, Roll number, Branch, Marks of 5 subjects.
+ Your program should allow the user to perform the following operations.
+1) Append student record into the file
+2) Display all the records in the file (Output should be as per the format given in
+sample input & output, case 3)
+3) Count the number of records in the file
+4) Calculate and print average total-marks in the console
+Note: File-handling, is the name of the program written for the above mentioned task,
+STUDENT.dat is the name of the file that your program should create.
+File-handling STUDENT.dat
+Menu:
+a) Append record
+b) Display all the records
+c) Count the records and calculate the average total-marks
+d) Exit
+Enter your choice: a
+Enter Name, Roll number, Branch, Marks of 5 subjects:
+Ram
+B130123CS
+CS
+72
+40
+56
+60
+41
+Menu:
+a) Append record
+b) Display all the records
+c) Count the records and calculate the average total-marks
+d) Exit
+Enter your choice: a
+Enter Name, Roll number, Branch, Marks of 5 subjects:
+Athira
+B130567ME
+ME
+67
+89
+37
+55
+49
+Menu:
+a) Append record
+b) Display all the records
+c) Count the records and calculate the average total-marks
+d) Exit
+Enter your choice: b
+Ram B130123CS CS 72 40 56 60 41
+Athira B130567ME ME 67 89 37 55 49
+Menu:
+a) Append record
+b) Display all the records
+c) Count the records and calculate the average total-marks
+d) Exit
+Enter your choice: c
+Total number of records = 2
+Average total marks = 283
+Menu:
+a) Append record
+b) Display all the records
+c) Count the records and calculate the average total-marks
+d) Exit
+Enter your choice: d
